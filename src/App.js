@@ -1,23 +1,7 @@
-import Logo from "./reduxLogo";
 import "./App.css";
+import Home from '../src/components/Home/Home';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <Logo className="App-logo" />
-        <p>Los Rezagados !</p>
-        <a
-          className="App-link"
-          href="https://react-redux.js.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Redux study group
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+    <Home/>
 }
-
 export default App;
