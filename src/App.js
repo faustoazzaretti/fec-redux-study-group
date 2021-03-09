@@ -1,7 +1,10 @@
 import "./App.css";
 import Home from '../src/components/Home/Home';
+import React from "react";
 
 const App = () => {
-    <Home/>
+    return( 
+      <Home/>
+    )
 }
 export default App;
