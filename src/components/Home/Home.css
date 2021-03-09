@@ -16,3 +16,14 @@
     height: 25vh;
     background-color: thistle;
 }
+
+.workArea button {
+    margin: 10px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: tomato;
+    border: 0.1px dashed orange;
+    cursor: pointer;
+}
