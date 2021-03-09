@@ -9,13 +9,7 @@ const reducer = (state = intialState,action ) => {
         case actionType.ADD_TASK:
             return {
                 ...state,
-                tasks: state.tasks.concat({id: new Date, toDo :action.task})
-            }
-        case actionType.DELETE_TASK:
-            const updatedArray = state.tasks.filter(task => task.id !== action.taskElId)
-            return {
-                ...state,
-                tasks:updatedArray
+                tasks: state.tasks.concat({id: new Date(), task :action.toDo})
             }
     }
     return state;

@@ -27,3 +27,16 @@
     border: 0.1px dashed orange;
     cursor: pointer;
 }
+
+.taskList {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 65vh;
+    background-color: burlywood;
+    font-size: 25px;
+}
+
+.taskList ul {
+    list-style: none;
+}

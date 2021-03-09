@@ -4,13 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import reducer from './store/reducer'
-import {createStore,combineReducers} from 'redux';
 import {Provider} from 'react-redux';
+import {createStore,combineReducers} from 'redux';
+
 
 const rootReducer = combineReducers({
-  reducer
+  red:reducer
 });
-
 
 const store = createStore(rootReducer);
 
